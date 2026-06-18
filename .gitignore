@@ -1,0 +1,12 @@
+# Build output
+NightVisionGoggles.rmod
+NightVisionGoggles/build/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build artifacts
+NightVisionGoggles/bin/
+NightVisionGoggles/obj/

@@ -1,0 +1,29 @@
+{
+  "name": "Night Vision Goggles",
+  "author": "Flaze",
+  "description": "Craftable Night Vision Goggles for your head slot. Press V to activate a real GPU-powered green phosphor night vision effect that brightens dark areas. Includes a battery system and goggle optics. Everyone needs their own pair.",
+  "version": "1.0.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.png",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": true,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/night-vision-goggles/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "requiredMods": [],
+  "modSettings": [
+    {
+      "type": "section",
+      "name": "controlsSection",
+      "text": "Controls"
+    },
+    {
+      "type": "keybind",
+      "name": "toggleKey",
+      "text": "Toggle Night Vision",
+      "mainDefault": "V",
+      "section": "controlsSection"
+    }
+  ]
+}
